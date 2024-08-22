@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Futura PT', sans-serif;
+}
+
+.componente {
+    background-color: #00FF73;
+    width: 100vw; /*Viewport Width*/
+    height: 100vh; /*Viewport Height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: black;
+    padding: 32px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0%, 0%, 0.25);
+    display: flex;
+    flex-direction: column; /*Cambia el Eje Principal (X) por (Y)*/
+    justify-content: center; /*Eje Principal*/
+    align-items: center; /*Eeje Secundario*/
+    gap: 16px;
+}
+
+.nombre {
+    color: white;
+    font-weight: medium;
+    font-size: 40px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #0077FF;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #c800ff;
+    color: black;
+}
